@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: rgb(0, 0, 0);
+   
+}
+.body{
+    background-color: black;
+}
+
+\\.body{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.conteudo{
+    
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: center;
+}
+.menu{
+    height: 10vh;
+    background-color: aqua;
+}
+.lado{
+    height: 20vh;
+    background-color: rgb(231, 15, 15);
+}
+.principal{
+    height: 60vh;
+    background-color: rgb(0, 38, 255);
+}
+.rodapé{
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+}
+.imag-ini{
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+}
