@@ -34,18 +34,18 @@ text-align: center;
 
 .desc-solo{
     width: 100%;
-    background-color: rgb(119, 112, 112);
+    background-color: rgb(105, 99, 99);
     text-align: center;
 }
 .desc-gupos{
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(105, 99, 99);
     text-align: center;
     color: #fff;
 }
 .desc-banda{
     width: 100%;
-    background-color:rgb(90, 96, 105); 
+    background-color:rgb(105, 99, 99); 
     text-align: center;
 }
 .desc-app{

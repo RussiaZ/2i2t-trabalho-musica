@@ -1,49 +1,44 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: black;
-    color: rgb(0, 0, 0);
+background-color: black;
+color: #ffffff;
    
 }
-.body{
-    background-color: black;
-}
 
-\\.body{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(0, 255, 255);
-    margin-top: 10px;
-    margin-left: 10px;
-}
+
 .conteudo{
     
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-columns: 10% 20% 60% 10%;
   justify-content: center;
 }
 .menu-site{
-    height: 20vh;
-    background-color: aqua;
-    grid-template-areas: "menu menu"
-                        "lado principal"
-                        " lado rodapé";
+    display: grid;
+    grid-template-columns : 10% 20% 60% 10%;
+    grid-template-areas:
+     "menu menu menu menu "
+    "lado principal principal principal"
+     " rodapé rodapé rodapé rodapé ";
 }
 
 
 .menu{
-    height: 20vh;
-    background-color: rgb(231, 15, 15);
+    height: 10vh;
+    background-color: rgb(212, 25, 25);
+    grid-area: menu;
 }
 .lado{
     height: 20vh;
-    background-color: rgb(15, 109, 231);
+    background-color: rgb(23, 72, 233);
+    grid-area: lado;
 }
 .principal{
-    height: 20vh;
-    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    background-color: rgb(236, 20, 189);
+    grid-area: principal;
 }
 .rodapé{
-    height: 20vh;
-    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    background-color: rgb(75, 75, 75);
 }
