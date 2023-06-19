@@ -1,2 +1,2 @@
 # Aulas do Segundo Trimestre
-EZEQUIEL SANTOS nº10
+Edson Kichie Mario Noguchi - nº7
